@@ -6,7 +6,7 @@
 - [3. Công nghệ sử dụng](#3-công-nghệ-sử-dụng)
 - [4. Cài đặt và chạy dự án](#4-cài-đặt-và-chạy-dự-án)
 - [5. Tác giả](#5-tác-giả)
-- [6. Demo chức năng ứng dụng qua Postman](#6-demo-chức-năng-ứng-dụng-qua-postman)
+- [6. Demo chức năng ứng dụng](#6-demo-chức-năng-ứng-dụng)
 - [7. Hạn chế của ứng dụng](#7-hạn-chế-của-ứng-dụng)
 
 ## 1. Giới thiệu dự án
@@ -21,8 +21,7 @@ Trong thế giới ngày càng phát triển hiện nay, việc tìm kiếm mộ
 - **Ứng tuyển hố sơ**: Ứng viên có thể nộp hồ sơ trực tiếp trên nền tảng mà không cần gửi email hay liên hệ riêng.
 - **Quản lý tin tuyển dụng**: Nhà tuyển dụng có thể đăng, chỉnh sửa, và theo dõi tình trạng tin, hồ sơ tuyển dụng của họ.
 - **Quản lý hồ sơ cá nhân**: Người tìm việc có thể cập nhật và quản lý hồ sơ cá nhân, xem lịch sử nộp hồ sơ.
-- **Thống kê và báo cáo**: Cung cấp các báo cáo và thống kê cho người quản trị, nhà tuyển dụng về tình hình ứng tuyển và hiệu quả của các tin tuyển dụng.
-- **Gửi thông báo việc làm qua email**: Khi công việc được tạo phù hợp với level, salary, vị trí thì công việc đó sẽ được gửi qua email tự động cho người dùng.
+- **Gửi thông báo việc làm qua email**: Khi công việc được tạo phù hợp với skills người dùng đã đăng ký thì công việc đó sẽ được gửi qua email tự động cho người dùng.
 
 ## 3. CÔNG NGHỆ SỬ DỤNG
 
@@ -63,7 +62,7 @@ Trong thế giới ngày càng phát triển hiện nay, việc tìm kiếm mộ
 - **Trần Đặng Mỹ Phương** - [GitHub](https://github.com/lhggiang)
 - **Hà Anh Duy** - [GitHub](https://github.com/lhggiang)
 
-## 6. DEMO CHỨC NĂNG ỨNG DỤNG QUA POSTMAN
+## 6. DEMO CHỨC NĂNG ỨNG DỤNG
 
 📌 **USER**:
 #### ✅ Đăng ký, đăng nhập
@@ -90,12 +89,17 @@ Trong thế giới ngày càng phát triển hiện nay, việc tìm kiếm mộ
 
 ![image](https://github.com/user-attachments/assets/3e326209-5cdc-4a80-9bab-d40530ae938b)
 
+#### ✅ Nhận email công việc quan tâm
+Người dùng đăng ký nhận tin liên quan đến skills, khi công việc được tạo ra có skills đó thì sẽ gửi công việc đó đến email cho người dùng đó
+
+![image](https://github.com/user-attachments/assets/3b84fcf5-b3eb-40a0-8786-195b8399e77e)
+
 📌 **ADMIN**:
 #### ✅ Trang quản trị (mục dashboard chưa được làm) 
 
 ![image](https://github.com/user-attachments/assets/d5bbb140-464d-4ba6-8e33-752695f8eb51)
 
-Trang company (có thể tìm kiếm tên, địa chỉ công ty, thêm, sửa, xóa công ty)
+#### ✅ Trang company (có thể tìm kiếm tên, địa chỉ công ty, thêm, sửa, xóa công ty)
 
 ![image](https://github.com/user-attachments/assets/3a9b2af8-57cf-4e18-b401-2462a9b27cbb)
 
@@ -103,7 +107,7 @@ Trang company (có thể tìm kiếm tên, địa chỉ công ty, thêm, sửa, 
 
 ![image](https://github.com/user-attachments/assets/2760ae01-bb9b-4535-8d64-965c2f0c0693)
 
-Trang user (có thể tìm theo tên, email, thêm, xóa, sửa người dùng)
+#### ✅ Trang user (có thể tìm theo tên, email, thêm, xóa, sửa người dùng)
 
 ![image](https://github.com/user-attachments/assets/66ef8187-acd8-4618-aaa9-9cd9fcc7ebeb)
 
@@ -113,15 +117,15 @@ Thêm mới user số 10 (Minh Nguyễn)
 
 ![image](https://github.com/user-attachments/assets/d0fd6b30-6adf-4cad-8b97-6054d15ba85d)
 
-Trang Job (gồm job + skill)
+#### ✅ Trang Job (gồm job + skill)
 
 ![image](https://github.com/user-attachments/assets/3c1316e8-340c-4d7c-9bb7-1d83dcb85a16)
 
-Trang skill (có thể tạo mới, sửa, xóa, tìm kiếm tên skill)
+#### ✅ Trang skill (có thể tạo mới, sửa, xóa, tìm kiếm tên skill)
 
 ![image](https://github.com/user-attachments/assets/44a41461-42e6-436f-a377-1f4718449beb)
 
-Trang job (có thể tạo mới, sửa, xóa, tìm kiếm tên, mức lương, level của job)
+#### ✅ Trang job (có thể tạo mới, sửa, xóa, tìm kiếm tên, mức lương, level của job)
 
 ![image](https://github.com/user-attachments/assets/58f4f21f-c8e4-4390-bb67-afb899d878eb)
 
@@ -129,21 +133,21 @@ Công việc vừa được tạo:
 
 ![image](https://github.com/user-attachments/assets/26a5f2f0-840e-4e8f-87a8-d3f66d58008e)
 
-Trang Resume (có thể lọc theo trạng thái hồ sơ + thay đổi trạng thái hồ sơ)
+#### ✅ Trang Resume (có thể lọc theo trạng thái hồ sơ + thay đổi trạng thái hồ sơ)
 
 ![image](https://github.com/user-attachments/assets/a7e1836a-4c0c-42fa-9fd8-4cc0d2a32da7)
 
-Trạng thái vừa dược chuyển từ REVIEWING  APPROVED
+Trạng thái vừa dược chuyển từ REVIEWING -> APPROVED
 
 ![image](https://github.com/user-attachments/assets/393f7e7d-a7bc-41c1-a0f6-df92180b9ffe)
 
-Trang Permission (có thể tìm kiếm theo tên, API, method, thêm, sửa, xóa permission)
+#### ✅ Trang Permission (có thể tìm kiếm theo tên, API, method, thêm, sửa, xóa permission)
 
 ![image](https://github.com/user-attachments/assets/b971b237-8678-4474-913a-5cefbe804c10)
 
 ![image](https://github.com/user-attachments/assets/0c84fc7d-6977-493e-8cd1-be4376c1ace5)
 
-Trang Role (có thể tìm theo tên role, thêm xóa, sửa role)
+#### ✅ Trang Role (có thể tìm theo tên role, thêm xóa, sửa role)
 
 ![image](https://github.com/user-attachments/assets/fcac93a6-8d8e-432d-93f0-a60a2f1ce7a3)
 
